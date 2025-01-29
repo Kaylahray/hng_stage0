@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.profile-card {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 350px;
+  width: 100%;
+}
+h2 {
+  font-weight: 400;
+}
+.profile-card .job {
+  color: gray;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 300;
+  font-style: italic;
+}
+.profile-picture {
+  max-width: 100%;
+  height: auto;
+}
+.social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 18px;
+  background: linear-gradient(45deg, lightseagreen, magenta);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  transition: background 0.3s ease;
+}
+
+.social-links a:hover {
+  background: linear-gradient(45deg, magenta, lightseagreen);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
