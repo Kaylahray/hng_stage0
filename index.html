@@ -8,41 +8,49 @@
   </head>
   <body>
     <div class="profile-card">
-      <img
-        src="profile.png"
-        alt="Profile Picture"
-        class="profile-picture"
-        data-testid="profilePicture"
-      />
-      <h2 data-testid="fullName">Chioma Christopher</h2>
-      <h4 data-testid="jobTitle" class="job">Front-End Developer</h4>
-      <p data-testid="shortBio">
-        I build responsive interfaces that balance beauty with functionality.
-      </p>
-      <p data-testid="currentLocation">📍Abuja, Nigeria.</p>
-      <p data-testid="emailAddress">chiomachristopher91@gmail.com</p>
-      <div class="social-links">
-        <a
-          href="https://linkedin.com/in/chioma-christopher-6a539723a"
-          target="_blank"
-          data-testid="socialLinks"
-          >LinkedIn</a
-        >
-        <a
-          href="https://github.com/Kaylahray"
-          target="_blank"
-          data-testid="socialLinks"
-          >GitHub</a
-        >
-        <a
-          href="https://x.com/Kayla_hhray"
-          target="_blank"
-          data-testid="socialLinks"
-          >Twitter</a
-        >
+      <div class="profile-image-cont">
+        <img
+          src="profile.png"
+          alt="Profile Picture"
+          class="profile-picture"
+          data-testid="profilePicture"
+        />
       </div>
-      <p data-testid="currentTimeUTC" id="utcTime"></p>
+
+      <div class="content">
+        <h2 data-testid="fullName">Chioma Christopher</h2>
+        <h4 data-testid="jobTitle" class="job">Frontend Developer</h4>
+        <p data-testid="shortBio">
+          Tech is always evolving, and so am I. I’m passionate about continuous
+          learning, mastering React, TypeScript, and modern UI frameworks. Every
+          day is an opportunity to improve, adapt, and build better experiences.
+        </p>
+        <p data-testid="currentLocation">📍Abuja, Nigeria.</p>
+        <p data-testid="emailAddress">chiomachristopher91@gmail.com</p>
+        <div class="social-links">
+          <a
+            href="https://linkedin.com/in/chioma-christopher-6a539723a"
+            target="_blank"
+            data-testid="socialLinks"
+            >LinkedIn</a
+          >
+          <a
+            href="https://github.com/Kaylahray"
+            target="_blank"
+            data-testid="socialLinks"
+            >GitHub</a
+          >
+          <a
+            href="https://x.com/Kayla_hhray"
+            target="_blank"
+            data-testid="socialLinks"
+            >Twitter</a
+          >
+        </div>
+        <p data-testid="currentTimeUTC" id="utcTime"></p>
+      </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
