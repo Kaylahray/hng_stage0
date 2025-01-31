@@ -8,25 +8,34 @@
   </head>
   <body>
     <div class="profile-card">
-      <div class="profile-image-cont">
-        <img
-          src="profile.png"
-          alt="Profile Picture"
-          class="profile-picture"
-          data-testid="profilePicture"
-        />
+      <div class="right-cont">
+        <div class="profile-img-cont">
+          <img
+            src="profile.png"
+            alt="Profile Picture"
+            class="profile-picture"
+            data-testid="profilePicture"
+          />
+        </div>
       </div>
 
       <div class="content">
+        <h4 data-testid="jobTitle" class="job">Front-End Engineer</h4>
         <h2 data-testid="fullName">Chioma Christopher</h2>
-        <h4 data-testid="jobTitle" class="job">Frontend Developer</h4>
         <p data-testid="shortBio">
           Tech is always evolving, and so am I. I’m passionate about continuous
           learning, mastering React, TypeScript, and modern UI frameworks. Every
           day is an opportunity to improve, adapt, and build better experiences.
         </p>
-        <p data-testid="currentLocation">📍Abuja, Nigeria.</p>
-        <p data-testid="emailAddress">chiomachristopher91@gmail.com</p>
+        <div class="right-bottom">
+          <div class="location">
+            <p data-testid="currentLocation">📍Abuja, Nigeria.</p>
+            <p data-testid="currentTimeUTC" id="utcTime"></p>
+          </div>
+        </div>
+        <p data-testid="emailAddress" class="email">
+          chiomachristopher91@gmail.com
+        </p>
         <div class="social-links">
           <a
             href="https://linkedin.com/in/chioma-christopher-6a539723a"
@@ -44,10 +53,9 @@
             href="https://x.com/Kayla_hhray"
             target="_blank"
             data-testid="socialLinks"
-            >Twitter</a
+            >X</a
           >
         </div>
-        <p data-testid="currentTimeUTC" id="utcTime"></p>
       </div>
     </div>
 
